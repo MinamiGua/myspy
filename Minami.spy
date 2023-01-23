@@ -510,13 +510,30 @@ js_config:
   KeyWord:
   - - SEVENDAY_LIST
   - - LZKJ_SEVENDAY
-  - - CJHY_SEVENDAY
-  - - LZKJ_SIGN
-  - - CJHY_SIGN
-  - - jd_cjhy_activityId
+  Name: 【船长】超级无线店铺签到1
+  Script: HarbourJ_HarbourToulu_main/jd_sevenDay.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: SEVENDAY_LIST2
+  KeyWord:
+  - - SEVENDAY_LIST2
   - - jd_lzkj_activityId
-  Name: 【船长】超级无线店铺签到
-  Script: jd_sevenDay.js
+  - - jd_lzkj_signActivity_ids
+  Name: 【船长】超级无线店铺签到2
+  Script: HarbourJ_HarbourToulu_main/jd_sevenDay.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: SEVENDAY_LIST3
+  KeyWord:
+  - - SEVENDAY_LIST3
+  - - jd_cjhy_activityId
+  - - jd_cjhy_signActivity_ids
+  Name: 【船长】超级无线店铺签到3
+  Script: HarbourJ_HarbourToulu_main/jd_sevenDay.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -526,7 +543,7 @@ js_config:
   - - jd_sevenDay_activityUrl
   Name: 【船长】超级无线店铺签到-正则转换
   RegularRules: '@[\d|a-z]{32}@0'
-  Script: jd_sevenDay.js
+  Script: HarbourJ_HarbourToulu_main/jd_sevenDay.js
   TimeOut: 0
   Wait: 2
 - Container:
