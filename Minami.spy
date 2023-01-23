@@ -521,6 +521,7 @@ js_config:
   - - SEVENDAY_LIST2
   - - jd_lzkj_activityId
   - - jd_lzkj_signActivity_ids
+  - - LZKJ_SIGN
   Name: 【船长】超级无线店铺签到2
   Script: HarbourJ_HarbourToulu_main/jd_sevenDay.js
   TimeOut: 0
@@ -532,6 +533,7 @@ js_config:
   - - SEVENDAY_LIST3
   - - jd_cjhy_activityId
   - - jd_cjhy_signActivity_ids
+  - - CJHY_SIGN
   Name: 【船长】超级无线店铺签到3
   Script: HarbourJ_HarbourToulu_main/jd_sevenDay.js
   TimeOut: 0
