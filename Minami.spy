@@ -327,13 +327,13 @@ js_config:
   Wait: 5
 - Container:
   - []
-  Env: jd_wxCollectionActivityUrl
+  Env: jd_wxCollectionActivity_activityUrl
   KeyWord:
   - - jd_wxCollectionActivity_activityUrl
   - - jd_wxCollectionActivityUrl
   - - M_WX_ADD_CART_URL
-  Name: 【船长】加购有礼-JK
-  Script: jd_wxCollectionActivity.py
+  Name: 【KR】加购有礼
+  Script: KingRan_KR/jd_wxCollectionActivity.js
   TimeOut: 0
   Wait: 2
 - Container:
