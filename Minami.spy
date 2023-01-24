@@ -5,6 +5,7 @@ js_config:
   KeyWord:
   - - jd_wxCartKoi_activityId
   Name: 【KR】购物车锦鲤通用活动
+  Disable: 1
   Script: jd_wxCartKoi.js
   TimeOut: 0
   Wait: 3
