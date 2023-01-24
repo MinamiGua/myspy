@@ -63,6 +63,7 @@ js_config:
   KeyWord:
   - - jd_wxCollectCard_activityId
   Name: 【KR】集卡抽奖通用活动
+  Disable: 1
   Script: jd_wxCollectCard.js
   TimeOut: 0
   Wait: 2
