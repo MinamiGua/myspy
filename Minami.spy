@@ -97,6 +97,7 @@ js_config:
 - Container:
   - []
   Env: DPLHTY
+  Disable: 1
   KeyWord:
   - - DPLHTY
   Name: 【KR】大牌联合通用开卡
