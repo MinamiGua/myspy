@@ -614,6 +614,7 @@ js_config:
   Env: jd_cjhydz_wxTeam_Id
   KeyWord:
   - - jd_wxTeam_wxId
+  - - M_WX_TEAM_URL
   Name: 【环境】CJ组队瓜分京豆-正则转换
   RegularRules: '@[\d|a-z]{32}@0'
   Script: jd_cjhydz_wxTeam.js
