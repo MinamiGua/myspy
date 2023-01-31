@@ -285,6 +285,7 @@ js_config:
   Env: jd_wxShopGift_activityUrl
   KeyWord:
   - - jd_wxShopGift_activityUrl
+  - - M_WX_SHOP_GIFT_URL
   Name: 【KR】店铺礼包特效
   Script: jd_wxShopGift.js
   TimeOut: 0
