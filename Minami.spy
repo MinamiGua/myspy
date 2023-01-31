@@ -313,6 +313,7 @@ js_config:
   Env: jd_wxShareActivity_activityId
   KeyWord:
   - -  jd_wxgame_wxId
+  - -  M_WX_SHARE_URL
   Name: 【KR】分享有礼-正则转换
   RegularRules: '@[\d|a-z]{32}@0'
   Script: jd_wxShareActivity.js
