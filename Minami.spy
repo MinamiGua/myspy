@@ -378,6 +378,7 @@ js_config:
   - - DPQDTK
   - - dpqd_token
   Name: 【船长】店铺签到
+  Disable: 1
   Script: jd_dpqd.js
   TimeOut: 0
   Wait: 2
@@ -529,6 +530,7 @@ js_config:
   - - SEVENDAY_LIST
   - - LZKJ_SEVENDAY
   Name: 【船长】超级无线店铺签到1
+  Disable: 1
   Script: HarbourJ_HarbourToulu_main/jd_sevenDay.js
   TimeOut: 0
   Wait: 2
@@ -541,6 +543,7 @@ js_config:
   - - jd_lzkj_signActivity_ids
   - - LZKJ_SIGN
   Name: 【船长】超级无线店铺签到2
+  Disable: 1
   Script: HarbourJ_HarbourToulu_main/jd_sevenDay.js
   TimeOut: 0
   Wait: 2
@@ -553,6 +556,7 @@ js_config:
   - - jd_cjhy_signActivity_ids
   - - CJHY_SIGN
   Name: 【船长】超级无线店铺签到3
+  Disable: 1
   Script: HarbourJ_HarbourToulu_main/jd_sevenDay.js
   TimeOut: 0
   Wait: 2
