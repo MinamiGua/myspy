@@ -83,6 +83,7 @@ js_config:
   KeyWord:
   - - jd_wxShopFollowActivity_activityUrl
   - - jd_wxShopFollow_wxId
+  - - M_WX_FOLLOW_DRAW_URL
   Name: 【KR】关注店铺有礼
   Script: jd_wxShopFollowActivity.js
   TimeOut: 0
