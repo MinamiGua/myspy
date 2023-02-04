@@ -288,6 +288,7 @@ js_config:
   - - jd_wxShopGift_activityUrl
   - - M_WX_SHOP_GIFT_URL
   Name: 【KR】店铺礼包特效
+  Disable: 1
   Script: jd_wxShopGift.js
   TimeOut: 0
   Wait: 2    
@@ -419,6 +420,7 @@ js_config:
   KeyWord:
   - - jd_wxShopGiftId
   - - jd_lzkj_wxShopGift_ids
+  - - jd_cjhy_wxShopGift_ids
   Name: 【船长】店铺特效关注有礼-JK
   Script: jd_wxShopGift.py
   TimeOut: 0
@@ -428,6 +430,8 @@ js_config:
   Env: jd_wxShopGiftId
   KeyWord:
   - - jd_wxShopGift_wxId
+  - - jd_wxShopGift_activityUrl
+  - - M_WX_SHOP_GIFT_URL
   Name: 【船长】店铺特效关注有礼-JK转换
   RegularRules: '@[\d|a-z]{32}@0'
   Script: jd_wxShopGift.py
