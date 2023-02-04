@@ -329,6 +329,7 @@ js_config:
   - - jd_completeInfoActivity_activityId
   - - jd_completeInfoActivity_venderId
   Name: 【KR】完善信息有礼 · 超级会员
+  Disable: 1
   Script: KingRan_KR/jd_completeInfoActivity.js
   TimeOut: 0
   Wait: 5
@@ -417,6 +418,7 @@ js_config:
   Env: jd_wxShopGiftId
   KeyWord:
   - - jd_wxShopGiftId
+  - - jd_lzkj_wxShopGift_ids
   Name: 【船长】店铺特效关注有礼-JK
   Script: jd_wxShopGift.py
   TimeOut: 0
