@@ -14,6 +14,7 @@ js_config:
   Env: jd_wxgame_activityId
   KeyWord:
   - - jd_wxgame_activityId
+  - - jd_lzkj_wxGameActivity_activityId
   Name: 【KR】LZ店铺游戏
   Script: jd_wxgame.js
   TimeOut: 0
