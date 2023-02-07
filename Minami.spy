@@ -60,6 +60,16 @@ js_config:
   Wait: 3
 - Container:
   - []
+  Env: jd_zdjr_activityId
+  KeyWord:
+  - - M_WX_TEAM_URL
+  Name: 【KR】LZ组队瓜分京豆-正则转换
+  RegularRules: '@[\d|a-z]{32}@0'
+  Script: jd_zdjr.js
+  TimeOut: 0
+  Wait: 3
+- Container:
+  - []
   Env: jd_wxCollectCard_activityId
   KeyWord:
   - - jd_wxCollectCard_activityId
