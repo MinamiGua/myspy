@@ -44,6 +44,7 @@ js_config:
   Env: jd_wxKnowledgeActivity_activityUrl
   KeyWord:
   - - jd_wxKnowledgeActivity_activityUrl
+  - - M_WX_KNOWLEDGE_URL
   Name: 【KR】知识超人
   Script: jd_wxKnowledgeActivity.js
   TimeOut: 0
