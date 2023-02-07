@@ -519,6 +519,7 @@ js_config:
   KeyWord:
   - - jd_lzkjInteractUrl   
   - - jd_lzkj_loreal_invite_url
+  - - M_INTERACT_INVITE_URL
   Name: 【船长】jd_lzkjInteract邀请有礼
   Script: jd_lzkjInteract.py
   TimeOut: 0
