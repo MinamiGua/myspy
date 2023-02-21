@@ -63,6 +63,36 @@ js_config:
   - []
   Env: jd_zdjr_activityId
   KeyWord:
+  - - jd_zdjr_activityId
+  - - jd_lzkjdz_wxTeam_Id
+  Name: 【KR】LZ组队瓜分京豆2
+  Script: jd_zdjr2.js
+  TimeOut: 0
+  Wait: 3
+- Container:
+  - []
+  Env: jd_zdjr_activityId
+  KeyWord:
+  - - jd_zdjr_activityId
+  - - jd_lzkjdz_wxTeam_Id
+  Name: 【KR】LZ组队瓜分京豆3
+  Script: jd_zdjr3.js
+  TimeOut: 0
+  Wait: 3
+- Container:
+  - []
+  Env: jd_zdjr_activityId
+  KeyWord:
+  - - jd_zdjr_activityId
+  - - jd_lzkjdz_wxTeam_Id
+  Name: 【KR】LZ组队瓜分京豆4
+  Script: jd_zdjr4.js
+  TimeOut: 0
+  Wait: 3
+- Container:
+  - []
+  Env: jd_zdjr_activityId
+  KeyWord:
   - - M_WX_TEAM_URL
   Name: 【KR】LZ组队瓜分京豆-正则转换
   RegularRules: '@[\d|a-z]{32}@0'
