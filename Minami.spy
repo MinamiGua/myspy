@@ -680,6 +680,16 @@ js_config:
   - []
   Env: jd_cjhydz_wxTeam_Id
   KeyWord:
+  - - jd_cjhy_activityId
+  - - jd_cjhydz_wxTeam_Id
+  Name: 【环境】CJ组队瓜分京豆5
+  Script: jd_cjhydz_wxTeam5.js
+  TimeOut: 0
+  Wait: 3
+- Container:
+  - []
+  Env: jd_cjhydz_wxTeam_Id
+  KeyWord:
   - - jd_wxTeam_wxId
   - - M_WX_TEAM_URL
   Name: 【环境】CJ组队瓜分京豆-正则转换
